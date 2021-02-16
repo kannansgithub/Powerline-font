@@ -18,7 +18,7 @@
 
   > Import-Module oh-my-posh
 
-  > Set-Theme Paradox
+  > Set-PoshPrompt -Theme agnoster
 * Step 9 : If you are getting an error type below command. 
    - Open powershell as an administrator mode and tye below
    > Set-ExecutionPolicy Unrestricted
