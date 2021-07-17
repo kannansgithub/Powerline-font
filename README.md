@@ -28,11 +28,18 @@ If you want to change the themes open [Ohmyposh Themes](https://ohmyposh.dev/doc
 * Step 10 : Fish-like Autosuggestion in Powershell. 
    - Open powershell as an administrator mode and tye below
    > Install-Module PSReadLine -RequiredVersion 2.1.0
+   
    > Import-Module PSReadLine
+   
    > Set-PSReadLineOption -PredictionSource History
+   
    > Set-ExecutionPolicy RemoteSigned
+   
    - Edit the profile
+   
    > notepad $profile
+   
    > Import-Module PSReadLine
+   
    > Set-PSReadLineOption -PredictionSource History
 
